@@ -8,8 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://drive.google.com/drive/folders/1s8KVV4E5hhDoEA3j-84m_KEnBmTGPzuQ'
-model_file_name = 'model'
+model_file_url = 'https://www.dropbox.com/s/jkm0vawtj8881wy/stage-1.pth?dl=1'
 classes = ['dlophin', 'killer whale', 'whale shark']
 path = Path(__file__).parent
 
